@@ -1,5 +1,4 @@
 import React from 'react';
-import { OuterShadowType } from './types';
 import { View, Platform } from 'react-native';
 import OuterShadowART from './OuterShadowART';
 import { transformStyleProps } from './helpers';
@@ -50,4 +49,3 @@ OuterShadow.defaultProps = {
   inner: false,
   useArt: false,
 };
-OuterShadow.propTypes = OuterShadowType;

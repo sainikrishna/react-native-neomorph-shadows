@@ -1,6 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import { ShadowARTType } from './types';
 import { Surface, Shape, Group } from '@react-native-community/art';
 import { getPathWithRadius, transformShadowPropsForAndroid } from './helpers';
 
@@ -52,5 +51,3 @@ export default class InnerShadowART extends React.PureComponent {
     );
   }
 }
-
-InnerShadowART.propTypes = ShadowARTType;

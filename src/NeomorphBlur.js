@@ -1,5 +1,4 @@
 import React from 'react';
-import { NeomorphType } from './types';
 import Neomorph from './Neomorph';
 
 export default class NeomorphBlur extends React.PureComponent {
@@ -32,5 +31,3 @@ export default class NeomorphBlur extends React.PureComponent {
     );
   }
 }
-
-NeomorphBlur.propTypes = NeomorphType;

@@ -1,5 +1,4 @@
 import React from 'react';
-import { OuterShadowType } from './types';
 import InnerShadow from './InnerShadow';
 import OuterShadow from './OuterShadow';
 
@@ -14,4 +13,3 @@ Shadow.defaultProps = {
   inner: false,
   useArt: false,
 };
-Shadow.propTypes = OuterShadowType;

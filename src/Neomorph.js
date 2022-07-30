@@ -1,6 +1,5 @@
 /* eslint-disable react-native/no-inline-styles */
 import React from 'react';
-import { NeomorphType } from './types';
 import { StyleSheet, View, Platform } from 'react-native';
 import {
   transformStyleProps,
@@ -184,4 +183,3 @@ Neomorph.defaultProps = {
   lightShadowColor: 'white',
   swapShadows: false,
 };
-Neomorph.propTypes = NeomorphType;

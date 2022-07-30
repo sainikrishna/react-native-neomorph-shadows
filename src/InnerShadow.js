@@ -1,5 +1,4 @@
 import React from 'react';
-import { InnerShadowType } from './types';
 import { StyleSheet, View } from 'react-native';
 import InnerShadowART from './InnerShadowART';
 import { transformStyleProps } from './helpers';
@@ -34,5 +33,3 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
 });
-
-InnerShadow.propTypes = InnerShadowType;

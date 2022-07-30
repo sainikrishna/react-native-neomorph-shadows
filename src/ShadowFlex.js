@@ -1,5 +1,4 @@
 import React from 'react';
-import { ShadowFlexType } from './types';
 import { View, Platform } from 'react-native';
 import Shadow from './Shadow';
 
@@ -65,5 +64,3 @@ export default class ShadowFlex extends React.PureComponent {
     }
   }
 }
-
-ShadowFlex.propTypes = ShadowFlexType;

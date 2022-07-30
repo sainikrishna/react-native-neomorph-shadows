@@ -1,5 +1,4 @@
 import React from 'react';
-import { NeomorphFlexType } from './types';
 import { View } from 'react-native';
 import Neomorph from './Neomorph';
 
@@ -24,6 +23,7 @@ export default class NeomorphFlex extends React.PureComponent {
 
   _onLayout = ({ nativeEvent }) => {
     const { width, height } = nativeEvent.layout;
+    console.log(nativeEvent.layout);
     this.setState({
       neomorphStyle: {
         ...this.state.neomorphStyle,
@@ -54,5 +54,3 @@ export default class NeomorphFlex extends React.PureComponent {
     );
   }
 }
-
-NeomorphFlex.propTypes = NeomorphFlexType;

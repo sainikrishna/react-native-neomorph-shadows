@@ -1,5 +1,4 @@
 import React from 'react';
-import { ShadowARTType } from './types';
 import { StyleSheet } from 'react-native';
 import { Surface, Shape, Group } from '@react-native-community/art';
 import { getPathWithRadius, transformShadowPropsForAndroid } from './helpers';
@@ -50,5 +49,3 @@ const styles = StyleSheet.create({
     position: 'absolute',
   },
 });
-
-OuterShadowART.propTypes = ShadowARTType;
